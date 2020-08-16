@@ -1,0 +1,10 @@
+name: sample-public-serverless
+code_dir: sample_public_serverless
+handler: main.handler
+bucket_name: sample-serverless-app-artifact-store
+region_name: ap-northeast-1
+runtime: python3.6
+websockets: false
+timeout: 300
+s3_access: true
+dynamodb_access: true

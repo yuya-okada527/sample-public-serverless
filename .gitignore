@@ -131,3 +131,6 @@ dmypy.json
 # IDE
 *.idea/
 
+# Mangum
+packaged.yml
+template.yml
